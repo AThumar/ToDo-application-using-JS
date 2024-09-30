@@ -15,7 +15,7 @@ while (option !== "quit") {
     }
 
     else if (option === "DELETE") {
-        let deletetask = prompt("Which Task Would you like to DELETE");
+        deletetask = prompt("Which Task Would you like to DELETE");
         task.splice(index - 1, 1)
     }
 }
